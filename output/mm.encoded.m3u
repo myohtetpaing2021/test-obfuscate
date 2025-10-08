@@ -1,0 +1,77 @@
+#EXTM3U
+#EXTINF:1 tvg-logo="https://tinyurl.com/27vhs8x9"  group-title="Myanmar", 5 Plus
+https://your-gateway.example.com/decode/aHR0cHM6Ly81YTEzZmUzMmVmNzQ4LnN0cmVhbWxvY2submV0L21tcGxheS81cGx1cy9wbGF5bGlzdC5tM3U4
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2p88mkrf"  group-title="Myanmar", Mahar
+https://your-gateway.example.com/decode/aHR0cHM6Ly90di5tYWhhci5saXZlL21haGFyL3dlYnNpdGUuc3RyZWFtL3BsYXlsaXN0Lm0zdTg_aGRudHM9ZXhwPTE2NDU2NzE0OTB-YWNsPS8qfmhtYWM9YmU2YjFhMmIxNGU1YWRiNTdjODExZDk5NjNiNWU4OTUxMWMzMmI3MjlkY2FkMGNiNmRkMGY0NWYyZTQ5YTFhOQ
+
+#EXTINF:1 tvg-logo="http://27.0.232.118:80/images/fjDQO6wWjhnLmcUvjiTtL7GhaRFUh7uAOznwaQZ9soA8GuPdwEMt05UtsyXh3LD4IK6jPIuL2X8sX0F7N1TMI0UzJOj9vj5UcdVMmiwpkuI-VCH7F5e7JKnTTDlbPLTD8hyg6RvSoZ60pAk9gdiYhA.png"  group-title="Myanmar", Mahar
+http://27.0.232.118:80/play/HffFJFAxMVn0TsVvhU_J93IOEDOsanLwvtVQgMs7GT0/m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/bw4yrn5k"  group-title="Myanmar", Channel 7
+https://your-gateway.example.com/decode/aHR0cHM6Ly81YTEzZmUzMmVmNzQ4LnN0cmVhbWxvY2submV0L21tcGxheS9jaGFubmVsNy9wbGF5bGlzdC5tM3U4
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/9ek4k74b"  group-title="Myanmar", MRTV 4
+https://your-gateway.example.com/decode/aHR0cHM6Ly81YTEzZmUzMmVmNzQ4LnN0cmVhbWxvY2submV0L21tcGxheS9tcnR2LTQvcGxheWxpc3QubTN1OA
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/387szp29"  group-title="Myanmar", MRTV Entertainment
+https://your-gateway.example.com/decode/aHR0cHM6Ly81YTEzZmUzMmVmNzQ4LnN0cmVhbWxvY2submV0L21tcGxheS9tcnR2LWVudGVydGFpbm1lbnQvcGxheWxpc3QubTN1OA
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2kvnwd9b"  group-title="Myanmar", MRTV Parliament
+https://your-gateway.example.com/decode/aHR0cHM6Ly81YTEzZmUzMmVmNzQ4LnN0cmVhbWxvY2submV0L21tcGxheS9obHV0dGF3L3BsYXlsaXN0Lm0zdTg
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2p8w482b"  group-title="Myanmar", MNTV
+https://your-gateway.example.com/decode/aHR0cDovL2wxLXhsMS5teWFubWFybmV0LmNvbS9yZWxheS9tbnR2L2NoMS9zdHJlYW0ubTN1OA
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/mppja3vf"  group-title="Myanmar", ChannelK
+https://your-gateway.example.com/decode/aHR0cHM6Ly9sMS14bDEubXlhbm1hcm5ldC5jb20vcmVsYXkvY2hhbm5lbGsvY2gxL3N0cmVhbV9tb2JpbGUvaW5kZXgubTN1OA
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/5cnydu4h"  group-title="Myanmar", Channel9
+https://your-gateway.example.com/decode/aHR0cHM6Ly9zdHJlYW1tYWluLm15YW5tYXJ0dmNoYW5uZWxzLmNvbTo5OTkvd2Vic2l0ZS1jaGFubmVsOS1zdHJlYW05OTI3NDUvd2Vic2l0ZS1jaGFubmVsOS1zdHJlYW05OTI3NDUvY2h1bmtzLm0zdTg_bmltYmxlc2Vzc2lvbmlkPTE2ODMyOTMmd21zQXV0aFNpZ249YzJWeWRtVnlYM1JwYldVOU5DOHhOUzh5TURJeUlERTZNekE2TVRNZ1VFMG1hR0Z6YUY5MllXeDFaVDB2TjBocEwzRlpSeXRLVDBOb2NETmtWMkVyTHpoM1BUMG1kbUZzYVdSdGFXNTFkR1Z6UFRJMUpuTjBjbTFmYkdWdVBUVTU
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/bdhd4fnr"  group-title="Myanmar", Channel ME
+https://your-gateway.example.com/decode/aHR0cHM6Ly9zdHJlYW1tYWluLm15YW5tYXJ0dmNoYW5uZWxzLmNvbTo5OTkvd2Vic2l0ZS1jaGFubmVsbWUtc3RyZWFtOTkyNzQwL3dlYnNpdGUtY2hhbm5lbG1lLXN0cmVhbTk5Mjc0MC9jaHVua3MubTN1OD9uaW1ibGVzZXNzaW9uaWQ9MTY4MzMzNiZ3bXNBdXRoU2lnbj1jMlZ5ZG1WeVgzUnBiV1U5TkM4eE5TOHlNREl5SURFNk16QTZNVFVnVUUwbWFHRnphRjkyWVd4MVpUMVVLMFJGTVZocldWTnFjVlJhV1haNWVFaFdSR3AzUFQwbWRtRnNhV1J0YVc1MWRHVnpQVEkxSm5OMGNtMWZiR1Z1UFRZeA
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/yckz92tu"  group-title="Myanmar", MITV
+https://your-gateway.example.com/decode/aHR0cHM6Ly81YTEzZmUzMmVmNzQ4LnN0cmVhbWxvY2submV0L21tcGxheS9taXR2L3BsYXlsaXN0Lm0zdTg
+
+#EXTINF:1 tvg-logo="https://www.linkpicture.com/q/20201213_080431.png"  group-title="Myanmar", Mahar Bawdi
+https://your-gateway.example.com/decode/aHR0cHM6Ly9mb3JldmVyYWxpdmUxLWEuYWthbWFpaGQubmV0LzMyN2ZiYjk2OTJkNzRiOGE5ZmQzNWU3NTM1OWZhODI2L2FwLXNvdXRoZWFzdC0xLzYwNTc5NDk0NzkwMDEvcHJvZmlsZV8yL2NodW5rbGlzdC5tM3U4
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/bdh6vzf5"  group-title="Myanmar", MWD HD
+https://your-gateway.example.com/decode/aHR0cDovLzIwMy44MS44NC4xMzAvaGxzL213ZC9pbmRleC5tM3U4
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2p99hspp"  group-title="Myanmar", MWD Movie HD
+https://your-gateway.example.com/decode/aHR0cDovLzIwMy44MS44NC4xMzAvaGxzL213ZF9zZXJpZS9pbmRleC5tM3U4
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/448vfpfz"  group-title="Myanmar", MWD Serie HD
+https://your-gateway.example.com/decode/aHR0cDovLzIwMy44MS44NC4xMzAvaGxzL213ZF9tb3ZpZS9pbmRleC5tM3U4
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2ahwhs8r"  group-title="Myanmar", MWD Variety HD
+https://your-gateway.example.com/decode/aHR0cDovLzIwMy44MS44NC4xMzAvaGxzL213ZF92YXJpZXR5L2luZGV4Lm0zdTg
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/y3vm6mjk"  group-title="Myanmar", MWD Documentary HD
+https://your-gateway.example.com/decode/aHR0cDovLzIwMy44MS44NC4xMzAvaGxzL213ZF9kb2N1bWVudC9pbmRleC5tM3U4
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/a2x8c8ms"  group-title="Myanmar", MWD Shopping HD
+https://your-gateway.example.com/decode/aHR0cDovLzIwMy44MS44NC4xMzAvaGxzL213ZF9zaG9wcGluZy9pbmRleC5tM3U4
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/3vmbnuzt"  group-title="Myanmar", MWD Family HD
+https://your-gateway.example.com/decode/aHR0cDovLzIwMy44MS44NC4xMzAvaGxzL213ZF9mYW1pbHkvaW5kZXgubTN1OA
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/3vmbnuzt"  group-title="Myanmar", MCS
+https://your-gateway.example.com/decode/aHR0cHM6Ly9sMS14bDEubXlhbm1hcm5ldC5jb20vcmVsYXkyL21jcy9jaDEvc3RyZWFtLm0zdTg
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/yud9tmxt"  group-title="Myanmar", MVM
+https://your-gateway.example.com/decode/aHR0cHM6Ly9lZGdlNmEudjJoLWNkbi5jb20vYXBwdDcvTVZNLnN0cmVhbV83MjBwL2NodW5rbGlzdC5tM3U4
+
+
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/5t2jc6f3"  group-title="Myanmar", Mnet
+
+
+
+
+
+
+
