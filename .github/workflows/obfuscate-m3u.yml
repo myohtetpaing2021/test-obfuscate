@@ -1,0 +1,50 @@
+name: Obfuscate M3U on input change
+
+on:
+  push:
+    paths:
+      - 'input/**'       # only run when input/ changes
+
+permissions:
+  contents: write      # allow pushing generated files
+
+jobs:
+  obfuscate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run obfuscator
+        env:
+          # Optional: override prefix, e.g. https://your-gateway.example.com/decode/
+          OBF_PREFIX: ${{ secrets.OBF_PREFIX || 'https://your-gateway.example.com/decode/' }}
+        run: |
+          node --version
+          ls -la
+          node scripts/obfuscate.js
+
+      - name: Commit & push generated files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add only output/ to avoid accidental re-adding input
+          git add output || true
+
+          # Commit only if changes exist
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: generate encoded m3u files"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "No changes to commit."
+          fi
