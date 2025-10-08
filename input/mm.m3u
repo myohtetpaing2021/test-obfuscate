@@ -1,0 +1,77 @@
+#EXTM3U
+#EXTINF:1 tvg-logo="https://tinyurl.com/27vhs8x9"  group-title="Myanmar", 5 Plus
+https://5a13fe32ef748.streamlock.net/mmplay/5plus/playlist.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2p88mkrf"  group-title="Myanmar", Mahar
+https://tv.mahar.live/mahar/website.stream/playlist.m3u8?hdnts=exp=1645671490~acl=/*~hmac=be6b1a2b14e5adb57c811d9963b5e89511c32b729dcad0cb6dd0f45f2e49a1a9
+
+#EXTINF:1 tvg-logo="http://27.0.232.118:80/images/fjDQO6wWjhnLmcUvjiTtL7GhaRFUh7uAOznwaQZ9soA8GuPdwEMt05UtsyXh3LD4IK6jPIuL2X8sX0F7N1TMI0UzJOj9vj5UcdVMmiwpkuI-VCH7F5e7JKnTTDlbPLTD8hyg6RvSoZ60pAk9gdiYhA.png"  group-title="Myanmar", Mahar
+http://27.0.232.118:80/play/HffFJFAxMVn0TsVvhU_J93IOEDOsanLwvtVQgMs7GT0/m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/bw4yrn5k"  group-title="Myanmar", Channel 7
+https://5a13fe32ef748.streamlock.net/mmplay/channel7/playlist.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/9ek4k74b"  group-title="Myanmar", MRTV 4
+https://5a13fe32ef748.streamlock.net/mmplay/mrtv-4/playlist.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/387szp29"  group-title="Myanmar", MRTV Entertainment
+https://5a13fe32ef748.streamlock.net/mmplay/mrtv-entertainment/playlist.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2kvnwd9b"  group-title="Myanmar", MRTV Parliament
+https://5a13fe32ef748.streamlock.net/mmplay/hluttaw/playlist.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2p8w482b"  group-title="Myanmar", MNTV
+http://l1-xl1.myanmarnet.com/relay/mntv/ch1/stream.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/mppja3vf"  group-title="Myanmar", ChannelK
+https://l1-xl1.myanmarnet.com/relay/channelk/ch1/stream_mobile/index.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/5cnydu4h"  group-title="Myanmar", Channel9
+https://streammain.myanmartvchannels.com:999/website-channel9-stream992745/website-channel9-stream992745/chunks.m3u8?nimblesessionid=1683293&wmsAuthSign=c2VydmVyX3RpbWU9NC8xNS8yMDIyIDE6MzA6MTMgUE0maGFzaF92YWx1ZT0vN0hpL3FZRytKT0NocDNkV2ErLzh3PT0mdmFsaWRtaW51dGVzPTI1JnN0cm1fbGVuPTU5
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/bdhd4fnr"  group-title="Myanmar", Channel ME
+https://streammain.myanmartvchannels.com:999/website-channelme-stream992740/website-channelme-stream992740/chunks.m3u8?nimblesessionid=1683336&wmsAuthSign=c2VydmVyX3RpbWU9NC8xNS8yMDIyIDE6MzA6MTUgUE0maGFzaF92YWx1ZT1UK0RFMVhrWVNqcVRaWXZ5eEhWRGp3PT0mdmFsaWRtaW51dGVzPTI1JnN0cm1fbGVuPTYx
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/yckz92tu"  group-title="Myanmar", MITV
+https://5a13fe32ef748.streamlock.net/mmplay/mitv/playlist.m3u8
+
+#EXTINF:1 tvg-logo="https://www.linkpicture.com/q/20201213_080431.png"  group-title="Myanmar", Mahar Bawdi
+https://foreveralive1-a.akamaihd.net/327fbb9692d74b8a9fd35e75359fa826/ap-southeast-1/6057949479001/profile_2/chunklist.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/bdh6vzf5"  group-title="Myanmar", MWD HD
+http://203.81.84.130/hls/mwd/index.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2p99hspp"  group-title="Myanmar", MWD Movie HD
+http://203.81.84.130/hls/mwd_serie/index.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/448vfpfz"  group-title="Myanmar", MWD Serie HD
+http://203.81.84.130/hls/mwd_movie/index.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/2ahwhs8r"  group-title="Myanmar", MWD Variety HD
+http://203.81.84.130/hls/mwd_variety/index.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/y3vm6mjk"  group-title="Myanmar", MWD Documentary HD
+http://203.81.84.130/hls/mwd_document/index.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/a2x8c8ms"  group-title="Myanmar", MWD Shopping HD
+http://203.81.84.130/hls/mwd_shopping/index.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/3vmbnuzt"  group-title="Myanmar", MWD Family HD
+http://203.81.84.130/hls/mwd_family/index.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/3vmbnuzt"  group-title="Myanmar", MCS
+https://l1-xl1.myanmarnet.com/relay2/mcs/ch1/stream.m3u8
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/yud9tmxt"  group-title="Myanmar", MVM
+https://edge6a.v2h-cdn.com/appt7/MVM.stream_720p/chunklist.m3u8
+
+
+
+#EXTINF:1 tvg-logo="https://tinyurl.com/5t2jc6f3"  group-title="Myanmar", Mnet
+
+
+
+
+
+
+
