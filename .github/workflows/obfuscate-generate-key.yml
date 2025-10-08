@@ -1,0 +1,70 @@
+name: Obfuscate M3U (generate key in CI)
+
+on:
+  push:
+    paths:
+      - 'input/**'
+
+permissions:
+  contents: write        # allow committing generated files
+  actions: read
+
+jobs:
+  obfuscate-with-generated-key:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Generate OBF_KEY (32 bytes, base64) in CI
+        id: genkey
+        run: |
+          # generate 32 random bytes base64-encoded (openssl available on ubuntu runner)
+          KEY=$(openssl rand -base64 32)
+          # export to GITHUB_ENV so subsequent steps can use it as env var OBF_KEY
+          echo "OBF_KEY=$KEY" >> $GITHUB_ENV
+          # also write key to file to upload as artifact
+          echo "$KEY" > obf_key.txt
+          # hide the key from logs (do not echo it)
+        # NOTE: we intentionally do NOT print the key to logs
+
+      - name: Run obfuscator (AES) using generated key
+        env:
+          OBF_KEY: ${{ env.OBF_KEY }}               # comes from previous step via GITHUB_ENV
+          # optional: override prefix to point to your gateway (ensure trailing /)
+          OBF_PREFIX: ${{ secrets.OBF_PREFIX || 'https://your-gateway.example.com/decode/' }}
+        run: |
+          node --version
+          ls -la
+          # run the obfuscation script which expects OBF_KEY env
+          node scripts/obfuscate.js
+
+      - name: Commit generated files (output/)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add only output/ (to avoid re-adding input)
+          git add output || true
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: add generated encrypted m3u files (CI-generated key)"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Upload generated key as artifact (downloadable from Actions UI)
+        uses: actions/upload-artifact@v4
+        with:
+          name: obf-key
+          path: obf_key.txt
